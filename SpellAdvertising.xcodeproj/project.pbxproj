@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0903EDBE1CC796F1001EAC76 /* HaithamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0903EDBD1CC796F1001EAC76 /* HaithamViewController.swift */; };
 		A7C6EFCA1CC68D9000F45655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C6EFC91CC68D9000F45655 /* AppDelegate.swift */; };
 		A7C6EFCC1CC68D9000F45655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C6EFCB1CC68D9000F45655 /* ViewController.swift */; };
 		A7C6EFCF1CC68D9000F45655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C6EFCD1CC68D9000F45655 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0903EDBD1CC796F1001EAC76 /* HaithamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaithamViewController.swift; sourceTree = "<group>"; };
 		A7C6EFC61CC68D9000F45655 /* SpellAdvertising.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellAdvertising.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C6EFC91CC68D9000F45655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7C6EFCB1CC68D9000F45655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				A7C6EFD51CC68D9000F45655 /* LaunchScreen.storyboard */,
 				A7C6EFD81CC68D9000F45655 /* Info.plist */,
 				A7C6EFD01CC68D9000F45655 /* SpellAdvertising.xcdatamodeld */,
+				0903EDBD1CC796F1001EAC76 /* HaithamViewController.swift */,
 			);
 			path = SpellAdvertising;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C6EFCC1CC68D9000F45655 /* ViewController.swift in Sources */,
+				0903EDBE1CC796F1001EAC76 /* HaithamViewController.swift in Sources */,
 				A7C6EFCA1CC68D9000F45655 /* AppDelegate.swift in Sources */,
 				A7C6EFD21CC68D9000F45655 /* SpellAdvertising.xcdatamodeld in Sources */,
 			);
@@ -403,10 +407,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SpellAdvertising/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.spellAdvert.SpellAdvertising;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpellAdvertising/SpellAdvertising-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -414,10 +421,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SpellAdvertising/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.spellAdvert.SpellAdvertising;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpellAdvertising/SpellAdvertising-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -486,6 +495,7 @@
 				A7C6EFF31CC68D9100F45655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7C6EFF41CC68D9100F45655 /* Build configuration list for PBXNativeTarget "SpellAdvertisingTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +504,7 @@
 				A7C6EFF61CC68D9100F45655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7C6EFF71CC68D9100F45655 /* Build configuration list for PBXNativeTarget "SpellAdvertisingUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +513,7 @@
 				A7C6EFF91CC68D9100F45655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
