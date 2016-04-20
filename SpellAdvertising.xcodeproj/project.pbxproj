@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0903EDBE1CC796F1001EAC76 /* HaithamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0903EDBD1CC796F1001EAC76 /* HaithamViewController.swift */; };
 		A7C6EFCA1CC68D9000F45655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C6EFC91CC68D9000F45655 /* AppDelegate.swift */; };
 		A7C6EFCC1CC68D9000F45655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C6EFCB1CC68D9000F45655 /* ViewController.swift */; };
 		A7C6EFCF1CC68D9000F45655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C6EFCD1CC68D9000F45655 /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0903EDBD1CC796F1001EAC76 /* HaithamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaithamViewController.swift; sourceTree = "<group>"; };
 		A7C6EFC61CC68D9000F45655 /* SpellAdvertising.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellAdvertising.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C6EFC91CC68D9000F45655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7C6EFCB1CC68D9000F45655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				A7C6EFD51CC68D9000F45655 /* LaunchScreen.storyboard */,
 				A7C6EFD81CC68D9000F45655 /* Info.plist */,
 				A7C6EFD01CC68D9000F45655 /* SpellAdvertising.xcdatamodeld */,
-				0903EDBD1CC796F1001EAC76 /* HaithamViewController.swift */,
 			);
 			path = SpellAdvertising;
 			sourceTree = "<group>";
@@ -263,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C6EFCC1CC68D9000F45655 /* ViewController.swift in Sources */,
-				0903EDBE1CC796F1001EAC76 /* HaithamViewController.swift in Sources */,
 				A7C6EFCA1CC68D9000F45655 /* AppDelegate.swift in Sources */,
 				A7C6EFD21CC68D9000F45655 /* SpellAdvertising.xcdatamodeld in Sources */,
 			);
