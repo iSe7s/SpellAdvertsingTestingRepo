@@ -14,6 +14,7 @@ class HaithamViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //comment soma comment
     }
 
     override func didReceiveMemoryWarning() {
