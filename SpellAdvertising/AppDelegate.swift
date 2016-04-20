@@ -11,7 +11,7 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    //Hussien added this branch commit
     var window: UIWindow?
     // Commit 1
 
